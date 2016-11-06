@@ -41,7 +41,7 @@ echo "初始化安装环境..."
 TZ="Asia/Shanghai"
 LANG=zh_CN.UTF-8
 WINETMP=${WINETMP:-$HOME/WineQQ-temp}
-WINEQQ_PREFIX=${WINEQQ_PREFIX:-$HOME/WineQQ}
+WINEQQ_PREFIX=${WINEQQ_PREFIX:-$HOME/.wine}
 WINE=/usr/bin/wine
 WINE_PATH=/usr/bin
 ICONS_DIR=$HOME/.local/share/icons/hicolor/256x256/apps
