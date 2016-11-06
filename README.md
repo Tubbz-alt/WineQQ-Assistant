@@ -3,23 +3,22 @@ WineQQ安装助手
 
 此脚本将帮助你安装WineQQ。
 
-## 文件及说明：
+## 文件及说明
 *  WineQQ-Assistant.sh 执行它，安装QQ6.7轻聊版。
-> 可选参数：
-> --
->
-> * WINETMP=/path/to/your/download/dir
-> 
-> 该目录会储存多个下载的软件包，可用于离线或网络较差时安装使用。
->
-> * WINEQQ_PREFIX=/path/to/your/WINEPREFIX
->
-> 该目录会保存Wine创建的Windows目录结构，默认安装到$HOME/.wine中。
->
-> 举例：
-> --
->
-> `WINEQQ_PREFIX=$HOME/.wineqq WINETMP=$HOME/Downloads sh WineQQ-Assistant.sh`
+
+### 可选参数
+
+* WINETMP=/path/to/your/download/dir
+
+该目录会储存多个下载的软件包，可用于离线或网络较差时安装使用。
+
+* WINEQQ_PREFIX=/path/to/your/WINEPREFIX
+
+该目录会保存Wine创建的Windows目录结构，默认安装到$HOME/.wine中。
+
+### 举例
+
+`WINEQQ_PREFIX=$HOME/.wineqq WINETMP=$HOME/Downloads sh WineQQ-Assistant.sh`
 
 ## 依赖项
 
